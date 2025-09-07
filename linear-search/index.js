@@ -10,4 +10,24 @@ function findindex(arrays){
     }
     return console.log(-1)
 }
-findindex(arr)
+// findindex(arr)
+
+
+// question 2 
+// find target return true , no find return false
+
+let arr1 = [5, 8, 12, 7, 25] 
+let target1 = 18 
+function findnum(arrays){
+    for(let i=0; i<arrays.length;i++){
+        if(arrays[i]===target1){
+            return console.log(true)
+        }
+    }
+    return console.log(false)
+}
+
+findnum(arr1)
+ 
+
+
