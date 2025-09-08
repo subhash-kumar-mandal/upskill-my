@@ -53,6 +53,6 @@ function finder(arrays) {
     console.log(`second max ${max1} and second  min ${min1}`)
     }
 
-    finder(arr1)
+    finder(arr1) 
 
 
