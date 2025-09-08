@@ -24,18 +24,41 @@ function TextCount(arr) {
 // Input: arr = [1, 2, 3, 2, 1]
 // Output: true
 
-let arr = [1,2,3,2,1]
+let arr = [1, 2, 3, 2, 1]
 function find_palindrome(arra) {
     let check = true;
     for (let i = 0; i < arra.length; i++) {
-        let j = arra.length-1 - i
+        let j = arra.length - 1 - i
         if (arra[i] !== arra[j]) {
             return check = false
         }
     }
-    return check ;
+    return check;
 }
 
 
-console.log(find_palindrome(arr))
+// console.log(find_palindrome(arr))
+
+
+
+
+// Question 3 .Search in 2D Array
+// Input: arr = [[1,2,3],[4,5,6],[7,8,9]], target = 5  
+// Output: { row: 1, col: 1 }
+
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+let tar2 = 5
+for(let i=0;i<matrix.length;i++){
+    for(let j=0;j<matrix[i].length;j++){
+      if(matrix[i][j]===tar2){
+        console.log(`Row ${i} and col ${j}`)
+      }
+    }
+}
+
 
