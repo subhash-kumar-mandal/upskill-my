@@ -53,6 +53,22 @@ function finder(arrays) {
     console.log(`second max ${max1} and second  min ${min1}`)
     }
 
-    finder(arr1) 
+    // finder(arr1) 
 
+    // ------------------------------------------------------------------------------------------------------------
+
+    // Question 3 Linear Search in Rotated Array
+    // Input: arr = [4,5,6,7,0,1,2], target = 0
+    // Output: 4  // return index
+    let rotedd = [4,5,6,7,0,1,2,3]
+    function rotated(arrr){
+        let tar2 =0;
+        for(let i=0;i<arrr.length;i++){
+            if(arrr[i]===tar2){
+                return ` rotated index num ${i}`
+            }
+        } 
+    }
+
+// console.log(rotated(rotedd)) 
 
