@@ -31,7 +31,7 @@ for(let i=0;i<arr1.length;i++){
   let check ;
   let mid = Math.floor((low+high)/2)
   if(arr1[mid]===tar1){
-      console.log(`index ${mid},element ${arr1[mid]}`)
+      // console.log(`index ${mid},element ${arr1[mid]}`)
       break;
   }
   if(arr1[mid]<tar1){
@@ -46,13 +46,30 @@ for(let i=0;i<arr1.length;i++){
 // Array = [2, 4, 6, 8, 10, 12]
 //             Target = 10
 
-let arr = [2,4,6,8,10,12] ;
-
+let arra = [2,4,6,8,10,12] ;
+let tar2 = 10 ;
 
 function finder(arr,tar){
   let low = 0;
   let high = arr.length-1 ;
-  let step_count =0
+
+  for(let j=0;j<arr.length;j++){
+    let mid = Math.floor((low+high)/2)
+    if(arr[mid]===tar){
+       return mid ;
+    
+    }
+    if(arr[mid]<tar){
+      low = mid +1 ;
+      
+    }else{
+      high =mid-1;
+      
+    }
+    
+  }
 
    
 }
+
+// console.log(` element 10 index  ${finder(arra,tar2) } par hai `)
