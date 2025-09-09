@@ -132,3 +132,49 @@ function lastindex(arr,tar){
 
 // let Lastindex= lastindex([1,2,3,3,3,4,5,5,6],3)
 // console.log(Lastindex)
+
+
+// ---------------------------------------------------------------------------------------------------
+
+// Question 5 find first and last index or sorted duplicate element 
+//  Input = [1,2,3,4,4,4,5,5,5,6,6,4,4,4,,7,7,]
+//   tar = 4 
+//   output = index 3 and index 13 return 
+
+function fLindex(arrays,tar){
+
+  // this loop find frist index  
+  let low = 0 
+  let  high =arrays.length-1
+  let Ft = 0
+   while(low<=high){
+    let mid = Math.floor((low+high)/2)
+    if(arrays[mid]===tar){
+        Ft = mid 
+        high = mid-1 
+    } else if( arrays[mid]<tar){
+       low = mid + 1 ;
+    } else{
+      high = mid -1 ;
+    }
+  }
+ 
+  // this loop find last index 
+  let low1 = 0 
+  let  high2 =arrays.length-1
+  let Lt = 0
+   while(low1<=high2){
+    let mid = Math.floor((low1+high2)/2)
+    if(arrays[mid]===tar){
+        Lt = mid 
+        low1 = mid+1 
+    } else if( arrays[mid]<tar){
+       low1 = mid + 1 ;
+    } else{
+      high2 = mid -1 ;
+    }
+  }
+
+  console.log(Ft,Lt)
+}
+// (fLindex([1,2,2,2,3,4,],2))
