@@ -73,3 +73,62 @@ function finder(arr,tar){
 }
 
 // console.log(` element 10 index  ${finder(arra,tar2) } par hai `)
+
+
+// question 3 First occurrence (duplicate  array element )
+  // input = [1,2,3,3,3,4,5,5,6]
+  //  tar = 3
+  //  output = 2 index
+
+function finder1(arr,tar){
+  let low = 0;
+  let high = arr.length-1
+  let new1 = 0 ;
+  for(let i=0;i<arr.length;i++){
+    let mid = Math.floor((low+high)/2);
+    if(arr[mid]===tar){
+          new1 = mid
+          high = mid-1
+    } 
+    if(arr[mid]<tar){
+        low = mid +1;
+    } else{
+      high = mid-1;
+    }
+  }
+  return new1 ;
+}
+
+// let frist = finder1([1,2,3,3,3,4,5,6,7],3)
+// console.log(frist) 
+// --------------------------------------------------------------------------------------------------------
+
+
+// question 4 last  occurrence (duplicate  array element )
+  // input = [1,2,3,3,3,4,5,5,6]
+  //  tar = 3
+  //  output = 4 index
+
+
+  
+function lastindex(arr,tar){
+  let low = 0;
+  let high = arr.length-1
+  let new1 = 0 ;
+  for(let i=0;i<arr.length;i++){
+    let mid = Math.floor((low+high)/2);
+    if(arr[mid]===tar){
+          new1 = mid  // tar milte hi uski index ko new1 mein daalo
+          low = mid+1  // yadi tar mil gya hai tabi left mein dekhte rahi kya pata or bhi ho to 
+    } 
+    if(arr[mid]<tar){
+        low = mid +1;
+    } else{
+      high = mid-1;
+    }
+  }
+  return new1 ;// here is return first index or target 
+}
+
+// let Lastindex= lastindex([1,2,3,3,3,4,5,5,6],3)
+// console.log(Lastindex)
