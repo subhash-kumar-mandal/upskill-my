@@ -99,4 +99,17 @@ let checkarra =[]
 
 }
 
-CountFrequency([1,1,2,3,4,5,5,5,6,7])
+// CountFrequency([1,1,2,3,4,5,5,5,6,7])
+
+// Question 6  reverse an arrya 
+let arr = [1,2,3,4,5,6]
+ let reverse =(array) => {
+    let new1 = []
+    for(let i=array.length;i>0;i--){
+       temp = array.pop()
+       new1.push(temp)
+    // console.log(new1)
+    }
+    return new1
+ }
+// console.log( reverse(arr))
