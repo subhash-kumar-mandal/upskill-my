@@ -113,3 +113,16 @@ let arr = [1,2,3,4,5,6]
     return new1
  }
 // console.log( reverse(arr))
+
+
+// swap method 
+function reverse1(arra){
+    for(let i=0;i<Math.floor(arra.length/2);i++){
+        let j = arra.length-1 -i
+           temp = arra[i]
+           arra[i] = arra[j]
+           arra[j] = temp
+    }
+    return arra
+}
+// console.log(reverse1(arr)) 
