@@ -52,7 +52,29 @@ let bubblesorted =(arr) =>{
     return arr
 }
 
-console.log(bubblesorted([1,5,3,26,7,2,4,10]))
+// console.log(bubblesorted([1,5,3,26,7,2,4,10]))
+
+//  5 . selection sorted ---->
+
+function  selectionsort (arra){
+
+    for(let j=0;j<arra.length;j++){
+        let min = j;
+        for(let i=j+1;i<arra.length;i++){
+            if(arra[i]<arra[min]){
+                min = i
+            }
+        }
+        if(j !== min){
+            temp = arra[j]
+            arra[j] =arra[min]
+            arra[min]= temp 
+        }
+    }
+    return arra
+}
+
+// console.log(selectionsort([1,5,3,26,7,2,4,10]))
 
 
 
