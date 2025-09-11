@@ -36,4 +36,24 @@ let linearfind= (arr,tar) =>{
 
 
 
+// 3. Bubble sort ---------->
+
+let bubblesorted =(arr) =>{
+    
+    for(let j = 0 ;j<arr.length;j++){
+        for(let i=0;i<arr.length;i++){
+            if(arr[i]>arr[i+1]){
+                temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+            }
+        }
+    }
+    return arr
+}
+
+console.log(bubblesorted([1,5,3,26,7,2,4,10]))
+
+
+
 
