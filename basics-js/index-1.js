@@ -126,3 +126,16 @@ function reverse1(arra){
     return arra
 }
 // console.log(reverse1(arr)) 
+
+// Question 7 arrays sorted yes ya no 
+
+let check = (arrays) =>{
+    for(let i=0;i<arrays.length;i++){
+        if(arrays[i]>arrays[i+1]){
+            return false ;
+        }
+    }
+    return true ;
+}
+// let new1 = check(arr)
+// console.log(new1)
