@@ -20,7 +20,7 @@ for(let i=1 ;i<=5;i++){
 }
 
 
-// Question 2 Inverted Number Triangle 
+// Question 2 Inverted number Triangle 
 
 // 12345
 // 1234
@@ -33,5 +33,26 @@ for(let i =0;i<=5;i++){
     for(let j=1;j<=5-i ;j++){
     str += `${j}`
     }
-    console.log(str)
+    // console.log(str)
 }
+
+
+// qustion 3. Pyramid number Pattern
+
+//     1
+//    12
+//   123
+//  1234
+// 12345
+
+for(let i =1 ;i<=5;i++){
+  let str = "";
+  for(let j=1 ;j<=5-i;j++){
+    str += `${" "}` 
+  }
+  for (let k =1 ;k<=i;k++){
+    str += `${k}`
+  }
+  console.log(str)
+}
+
