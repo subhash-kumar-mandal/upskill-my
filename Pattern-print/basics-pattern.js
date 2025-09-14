@@ -15,7 +15,7 @@
         for(let j=0 ;j<5;j++){
            star += "*"
         }
-        console.log(star)
+        // console.log(star)
     }
 
 
@@ -32,6 +32,23 @@ for(let i=0;i<=5;i++){
     if(j<=i)
         str += "*"
     }
-    console.log(str)
+    // console.log(str)
 }
+
+// Question 3 . Inverted Right-Angled Triangle
+
+// *****
+// ****
+// ***
+// **
+// *
+
+ for(let i=0;i<=5;i++){
+    let str=""
+    for(let j=5;j>=1+i;j--){
+     str = str + "*"
+    }
+    // console.log(str)
+ }
+
 
