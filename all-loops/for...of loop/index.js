@@ -41,11 +41,21 @@ for(let element of string){
 
 //  question level 2
 
-// question 4. print the array git
+// question 4. print the array 
 
 let   f =["apple", "banana", "cherry"]
 
 for(let element of f){
     // console.log(element)  here is print all f element 1 by 1 current element 
 }
+
+
+//  question 5 count the length
+
+let string1 = "subhash";
+let count = 0
+for(let next of string1){
+     count++
+}
+// console.log(count)
 
