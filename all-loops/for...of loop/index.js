@@ -20,3 +20,13 @@ for(let element of num){
     // console.log(element)  // print the element 
 }
 
+
+
+
+// question 2 find sum for of loop
+ let sum = 0;
+for(let element of num){
+     sum = sum + element;
+    }
+//  console.log( "sum is -->", sum)
+
