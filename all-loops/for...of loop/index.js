@@ -30,3 +30,11 @@ for(let element of num){
     }
 //  console.log( "sum is -->", sum)
 
+
+
+// question 3 print the string 
+let string = "Apple"
+for(let element of string){
+    // console.log(element) here print 
+}
+
