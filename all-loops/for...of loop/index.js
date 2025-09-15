@@ -38,3 +38,14 @@ for(let element of string){
     // console.log(element) here print 
 }
 
+
+//  question level 2
+
+// question 4. print the array git
+
+let   f =["apple", "banana", "cherry"]
+
+for(let element of f){
+    // console.log(element)  here is print all f element 1 by 1 current element 
+}
+
