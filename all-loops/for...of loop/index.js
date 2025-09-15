@@ -59,3 +59,18 @@ for(let next of string1){
 }
 // console.log(count)
 
+
+
+
+//  question level 3 ---->
+//  question 6. filter even number 
+let arr = [2,4,6,8,10,11,13,15];
+
+
+// 1 find even Number for..of loop
+for(let even of arr){
+    if(even%2==0){        // -----------------> condition check even number 
+        // console.log(even)
+    }
+}
+
