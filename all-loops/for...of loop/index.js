@@ -63,6 +63,7 @@ for(let next of string1){
 
 
 //  question level 3 ---->
+
 //  question 6. filter even number 
 let arr = [2,4,6,8,10,11,13,15];
 
@@ -71,6 +72,15 @@ let arr = [2,4,6,8,10,11,13,15];
 for(let even of arr){
     if(even%2==0){        // -----------------> condition check even number 
         // console.log(even)
+    }
+}
+
+
+// question 7.  find odd number for..of loop 
+
+for (let odd of arr){
+    if(odd%2 !== 0){    //   ----------------------------->  this condition is check odd number
+        // console.log(odd)
     }
 }
 
