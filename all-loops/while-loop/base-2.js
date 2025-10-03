@@ -61,5 +61,21 @@ function inputsum(para){
   console.log(sum)
 }
 
-inputsum(1234)
+// inputsum(1234)
 
+
+// 5. print reverse and number 
+
+function inputsum(paraa){
+   let arra= Array.from(String(paraa),Number)
+   let i=arra.length-1
+   let reverse ="";
+    while(i>=0){
+    //    console.log(arra[i])
+       reverse = reverse + arra[i].toString()
+        i--
+    }
+console.log(reverse)
+}
+
+inputsum(1234)
