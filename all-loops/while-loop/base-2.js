@@ -43,6 +43,23 @@ function print(para){
     console.log(new1)
 }
 
-print(1234)
+// print(1234)
 
+
+// 4. input ka sum karo 
+
+
+function inputsum(para){
+    let str = para.toString();
+    let i =0 ;
+    let  sum = 0;
+    while(i<str.length){
+        // console.log(str[i])
+       sum = sum + Number(str[i])
+        i++
+    }
+  console.log(sum)
+}
+
+inputsum(1234)
 
