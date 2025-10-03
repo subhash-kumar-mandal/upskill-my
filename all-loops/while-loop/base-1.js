@@ -18,3 +18,14 @@ while(count>=1){
     console.log(count);
     count--
 }
+
+
+// 3.  1 to 20 print even number 
+
+let count1 =1;
+while(count1<=20){
+    if(count1%2===0){
+        console.log(count1)
+    }
+    count1++
+}
