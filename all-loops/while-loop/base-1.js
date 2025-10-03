@@ -29,3 +29,13 @@ while(count1<=20){
     }
     count1++
 }
+
+// 3.  1 to 20 print odd number 
+
+let count2 =1;
+while(count2<=20){
+    if(count2%2!==0){
+        console.log(count2)
+    }
+    count2++
+}
