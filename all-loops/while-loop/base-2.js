@@ -29,4 +29,20 @@ function findft(param){
 
 // findft(10)
 
+// 3.question number ko alag alag print karo
+
+function print(para){
+    let para1 = para.toString()
+    let new1 =""
+    let i=0
+    while(i<para1.length){
+        // console.log(para1[i])
+        new1 = new1 + para1[i] + " "
+        i++
+    }
+    console.log(new1)
+}
+
+print(1234)
+
 
