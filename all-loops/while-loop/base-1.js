@@ -30,7 +30,7 @@ while(count1<=20){
     count1++
 }
 
-// 3.  1 to 20 print odd number 
+// 4.  1 to 20 print odd number 
 
 let count2 =1;
 while(count2<=20){
@@ -39,3 +39,12 @@ while(count2<=20){
     }
     count2++
 }
+
+
+// 5. 5 table print 
+let cout = 1;
+while(cout<=10){
+    console.log(5*cout);
+    cout++
+}
+
