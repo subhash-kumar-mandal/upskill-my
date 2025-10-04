@@ -81,9 +81,3 @@ console.log(reverse)
 // inputsum(1234) // 4321 
 
 
-let a =0;
-let b= 1;
-for(let i=a;i<=6;i++){
-    b= i + b;
-     console.log(b);
-}
