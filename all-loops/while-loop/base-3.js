@@ -64,4 +64,22 @@ function squares(a){
     }
 }
 
-squares(5)
+// squares(5)
+
+
+// 5. fibonacci series  find  nth number 
+
+let fibonacci =(n) => {
+    let count = 0;
+    let a=0,b=1;
+    while(count<=n){
+        let find= a+b;
+        
+        a =b;
+        b = find;
+        count++
+    }
+    console.log(a)
+}
+
+// fibonacci(6) 
