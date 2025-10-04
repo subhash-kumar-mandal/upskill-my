@@ -51,4 +51,17 @@ function fac(n){
     return console.log(factor)
 }
 
-fac(5)
+// fac(5)
+
+
+// 4. squares print nth number 
+
+function squares(a){
+    let i=1;
+    while (i<=a) {
+        console.log(i*i);
+        i++
+    }
+}
+
+squares(5)
