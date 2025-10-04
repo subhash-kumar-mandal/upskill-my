@@ -21,3 +21,19 @@ function check(arra){
 
 
 // check(num)  
+
+
+// 2. check count how many digits 
+
+function count(arra){
+    let a = arra.toString()
+    let count1 =0;
+    let i=0;
+    while(i<a.length){
+        count1++
+        i++
+    }
+   return console.log(count1)
+}
+
+// count(12345)
