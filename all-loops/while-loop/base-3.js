@@ -37,3 +37,18 @@ function count(arra){
 }
 
 // count(12345)
+
+
+
+// 3. find factorial n number
+
+function fac(n){
+    let factor = 1;
+    while (n>=1) {
+        factor *= n
+        n--
+    }
+    return console.log(factor)
+}
+
+fac(5)
