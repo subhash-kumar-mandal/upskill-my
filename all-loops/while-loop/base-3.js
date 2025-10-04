@@ -74,12 +74,12 @@ let fibonacci =(n) => {
     let a=0,b=1;
     while(count<=n){
         let find= a+b;
-        
+        console.log(a)
         a =b;
         b = find;
         count++
     }
-    console.log(a)
+   
 }
 
 // fibonacci(6) 
