@@ -54,3 +54,23 @@ function findGCD(a, b) {
 
 // Example:
 findGCD(12, 18); // 6
+
+
+// 4. Find LCM of two numbers
+
+function findLCM(a, b) {
+    let gcd = a, tempB = b;
+
+    // पहले GCD निकालो
+    while (tempB !== 0) {
+        let temp = tempB;
+        tempB = gcd % tempB;
+        gcd = temp;
+    }
+
+    let lcm = (a * b) / gcd;
+    console.log(lcm);
+}
+
+// Example:
+findLCM(4, 6); // 12
