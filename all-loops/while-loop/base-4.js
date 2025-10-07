@@ -22,3 +22,35 @@ function isArmstrong(num) {
 // Example:
 isArmstrong(153); // Armstrong
 isArmstrong(123); // Not Armstrong
+
+
+
+// 2.Find sum of squares of digits
+function sumOfSquares(num) {
+    let sum = 0;
+    while (num > 0) {
+        let digit = num % 10;
+        sum += digit * digit; // square
+        num = Math.floor(num / 10);
+    }
+    console.log(sum);
+}
+
+// Example:
+sumOfSquares(123); // 14
+
+
+
+// 3. Find GCD (HCF) using While Loop 
+
+function findGCD(a, b) {
+    while (b !== 0) {
+        let temp = b;
+        b = a % b;  // remainder
+        a = temp;
+    }
+    console.log(a);
+}
+
+// Example:
+findGCD(12, 18); // 6
