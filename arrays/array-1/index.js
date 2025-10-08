@@ -44,3 +44,13 @@
 // तो अगर तुम्हें 75 चाहिए तो:
 // console.log(marks[2]); // Output: 75
 
+
+
+// 3. how to create arrays
+// method 1 (common)
+let frurit =["apple","banana","mango"];
+
+// method 2(using constructor)
+let frurits = new Array("apple","banana","mango")
+
+console.log(frurit)
