@@ -30,3 +30,20 @@ for (let item of fruit1) {
 }
 
 // Note : for..of loop index nhi dena padta hai ye sab khud karta hai 
+
+
+
+// Example 3: forEach() method 
+// forEach() एक array method है जो array के हर element पर function को apply करता है।
+// मतलब, array के हर item के लिए एक काम कर सकते हैं, जैसे print करना या modify करना।
+
+let fruit2 = ["apple", "banana", "mango"];
+
+fruit2.forEach(function(fruit,index,fruit2) {
+  console.log(fruit,index,fruit2);
+});
+
+
+// note fruit -- current element 
+//      index -- current index
+//      fruit2-- pura array dena haar bar
