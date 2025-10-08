@@ -57,6 +57,9 @@ let frurits = new Array("apple","banana","mango")
 // 4. array ki value change karna 
  let marks = [1,2,3,4,5];
  marks[0]=44;
-//  console.log(marks) [44,2,3,4,5] 
+ console.log(marks) //[44,2,3,4,5] 
 
 
+// 5.find array length any 
+let  fru =["apple","banana","mango"];
+console.log(fru.length)// 3
