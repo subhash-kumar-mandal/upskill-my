@@ -53,4 +53,10 @@ let frurit =["apple","banana","mango"];
 // method 2(using constructor)
 let frurits = new Array("apple","banana","mango")
 
-console.log(frurit)
+
+// 4. array ki value change karna 
+ let marks = [1,2,3,4,5];
+ marks[0]=44;
+//  console.log(marks) [44,2,3,4,5] 
+
+
