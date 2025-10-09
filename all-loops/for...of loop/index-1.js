@@ -44,3 +44,19 @@ let multi =(arra)=>{
 }
 
 multi([1,2,3,4,5,6,7])
+
+
+// 4. arrays se element double kar ke new array mein store karo
+
+let newarra= (arra)=>{
+    let double=[];
+    for(let element of arra){
+        let temp= element+element;
+        double.push(temp)
+ 
+   }
+   console.log(double)
+}
+
+
+newarra([1,2,3,4,5,7])
