@@ -84,3 +84,17 @@ for (let odd of arr){
     }
 }
 
+
+// 8. find maiximum
+
+let max =(arra)=>{
+    let max =-Infinity;
+    for(let ele of arra){
+     if(ele>max){
+        max =ele
+     }
+    }
+    console.log(max)
+}
+
+max([2,4,6,8,10,11,13,15])

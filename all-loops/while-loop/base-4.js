@@ -74,3 +74,10 @@ function findLCM(a, b) {
 
 // Example:
 findLCM(4, 6); // 12
+
+
+
+
+
+
+
