@@ -33,3 +33,14 @@ const checkstr = (string)=>{
 }
 
 checkstr("hello")
+
+
+// 3.arrays print all element multiplication 
+
+let multi =(arra)=>{
+    for(let element of arra){
+        console.log(element*element)
+    }
+}
+
+multi([1,2,3,4,5,6,7])
