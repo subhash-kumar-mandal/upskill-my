@@ -62,3 +62,27 @@ let newarra= (arra)=>{
 newarra([1,2,3,4,5,7])
 
 
+// 5. count frequency
+
+let arra =[1,2,3,4,1,2,3,4,5,5,5]
+
+let fcount =(arra)=>{
+    let check=[]
+    for(let element of arra){
+        let count =0;
+        if(check.includes(element)){
+            continue;
+        }
+
+
+        for(let ele of arra){
+            if(ele ===element){
+                count++
+            }
+        }
+        console.log(`${element}-->${count}`)
+        check.push(element)
+    }
+}
+
+fcount([1,2,3,4,1,2,3,4,5,5,5])
