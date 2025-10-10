@@ -86,3 +86,20 @@ let fcount =(arra)=>{
 }
 
 fcount([1,2,3,4,1,2,3,4,5,5,5])
+
+
+
+// 6.question  fill star in vowel place 
+
+let star =(str)=>{
+    let string = ""
+    for(let element of str){
+        if(element ==="a"||element ==="u"||element ==="e"||element==="i"||element ==="o"){
+            string +="*"
+        }else{
+            string += element
+        }
+    }
+    console.log(string)
+}
+star("hello")
