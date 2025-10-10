@@ -118,3 +118,18 @@ let marge =(arra1,arra2)=>{
 }
 
 marge([1,2,3,4,1,2,3,4,5,5,5],[1,2,3,4,1,2,3,4,5,5,5])
+
+
+// 8.longest word find 
+
+let longest =(arra)=>{
+    let find = null;
+    for(let element of arra){
+        if(find===null ||element.length>find.length ){
+            find = element
+        }
+    }
+    console.log(find)
+}
+
+longest(["hello","aman","goodnight"])
