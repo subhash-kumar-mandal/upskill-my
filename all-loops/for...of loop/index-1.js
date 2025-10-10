@@ -103,3 +103,18 @@ let star =(str)=>{
     console.log(string)
 }
 star("hello")
+
+
+// 7. merge two arrays
+let marge =(arra1,arra2)=>{
+    let newarra=[];
+    for(let element of arra1){
+        newarra.push(element)
+    }
+     for(let element of arra2){
+        newarra.push(element)
+    }
+    console.log(newarra)
+}
+
+marge([1,2,3,4,1,2,3,4,5,5,5],[1,2,3,4,1,2,3,4,5,5,5])
