@@ -10,3 +10,11 @@ const num = [1,2,35,56,75];
 num.forEach((Element)=>{
     console.log(Element+Element)
 })
+
+
+// 3. print arra index and element same line 
+
+let num1 = [20,52,45,65,67];
+num1.forEach((Element,index)=>{
+    console.log(`${index} : ${Element}`)
+})
