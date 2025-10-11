@@ -178,3 +178,16 @@ let even =(arra)=>{
 }
 
 even([1,2,3,4,5,6,7,8])
+
+// 12. find  smallest odd number 
+let odd =(arra)=>{
+    let odd_number = +Infinity;
+    for(let element of arra){
+        if(element%2 !==0 && element<odd_number ){
+         odd_number= element
+        }
+    }
+    console.log(odd_number)
+}
+
+odd([3,4,5,7,9,13,17])
