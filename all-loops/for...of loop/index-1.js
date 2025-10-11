@@ -163,3 +163,18 @@ let first_return =(arra)=>{
 }
 
 first_return("string")
+
+
+
+// 11. find bigger even number 
+let even =(arra)=>{
+    let even_number = -Infinity;
+    for(let element of arra){
+        if(element%2===0 && element>even_number){
+            even_number =element
+        }
+    }
+    console.log(even_number)
+}
+
+even([1,2,3,4,5,6,7,8])
