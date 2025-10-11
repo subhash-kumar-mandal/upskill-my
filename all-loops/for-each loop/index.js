@@ -55,3 +55,11 @@ let string=["hello","goodm_morning","night"];
 string.forEach((ele)=>{
     console.log(ele.toUpperCase())
 })
+
+// 8. print element bigger than 50 
+let number_1 = [50,51,61,1,23,4,5,100,104];
+number_1.forEach((Element)=>{
+    if(Element>50){
+        console.log(Element)
+    }
+})
