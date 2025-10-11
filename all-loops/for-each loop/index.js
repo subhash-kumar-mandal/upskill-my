@@ -34,3 +34,16 @@ array.forEach((number)=>{
     sum += number;
 })
 console.log(sum)
+
+
+// 6. find even or odd 
+
+let zero =[1,2,3,4,,5,6,7,8,10];
+
+zero.forEach((num)=>{
+    if(num%2===0){
+        console.log(`even number ${num}`)
+    }else{
+         console.log(`Odd number ${num}`)
+    }
+})
