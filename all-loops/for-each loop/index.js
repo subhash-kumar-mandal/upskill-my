@@ -63,3 +63,9 @@ number_1.forEach((Element)=>{
         console.log(Element)
     }
 })
+
+// 9. find Element length and print 
+let length = ["hello", "subhash", "water","good","night"];
+length.forEach((ele)=>{
+    console.log(`${ele} lenght is ==> ${ele.length} `)
+})
