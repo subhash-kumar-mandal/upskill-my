@@ -47,3 +47,11 @@ zero.forEach((num)=>{
          console.log(`Odd number ${num}`)
     }
 })
+
+
+// 7. or Element transfrom uppercase 
+let string=["hello","goodm_morning","night"];
+
+string.forEach((ele)=>{
+    console.log(ele.toUpperCase())
+})
