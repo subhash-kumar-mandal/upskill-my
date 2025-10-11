@@ -25,3 +25,12 @@ let str = ["Subhash","Ravi","Neha"];
 str.forEach((ele)=>{
     console.log(`Hello ${ele}`)
 })
+
+// 5. find the sum of array . 
+
+let array = [20,37,67,45];
+let sum = 0;
+array.forEach((number)=>{
+    sum += number;
+})
+console.log(sum)
