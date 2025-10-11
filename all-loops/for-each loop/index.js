@@ -18,3 +18,10 @@ let num1 = [20,52,45,65,67];
 num1.forEach((Element,index)=>{
     console.log(`${index} : ${Element}`)
 })
+
+// 4. find Element with join "helllo" front side 
+
+let str = ["Subhash","Ravi","Neha"];
+str.forEach((ele)=>{
+    console.log(`Hello ${ele}`)
+})
