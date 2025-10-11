@@ -132,4 +132,21 @@ let longest =(arra)=>{
     console.log(find)
 }
 
-longest(["hello","aman","goodnight"])
+longest(["hello","aman","goodnight"]);
+
+// 9. find factorial 
+
+
+let fact =(arra)=>{
+    let facto =[]
+    for(let element of arra){
+        let fact =1;
+        for(let i=1;i<=element;i++){
+            fact *= i
+        }
+        facto.push(fact)
+    }
+    console.log(facto)
+}
+
+fact([1,2,3,4,1,2,3,4,5,5,5])
