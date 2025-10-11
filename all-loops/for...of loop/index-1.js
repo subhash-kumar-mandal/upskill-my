@@ -150,3 +150,16 @@ let fact =(arra)=>{
 }
 
 fact([1,2,3,4,1,2,3,4,5,5,5])
+
+
+
+// 10. return first vowel in string 
+let first_return =(arra)=>{
+    for(let element of arra){
+        if(element ==="a"||element ==="u"||element ==="e"||element==="i"||element ==="o"){
+            return console.log(element)
+        }
+    }
+}
+
+first_return("string")
