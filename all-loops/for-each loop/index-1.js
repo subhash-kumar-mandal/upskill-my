@@ -28,3 +28,12 @@ let str = ["subash", "priya","kumar","good"];
 str.forEach((element)=>{
   console.log(element[0].toUpperCase()+element.slice(1))
 })
+
+
+// 4. print only 3 divisible number 
+const arr = [3, 9, 10, 15, 22, 30];
+arr.forEach((element)=>{
+  if(element%3==0){
+    console.log(element)
+  }
+})
