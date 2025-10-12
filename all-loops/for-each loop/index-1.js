@@ -48,4 +48,19 @@ let average =(arra)=>{
   console.log(sum/arra.length)
 }
 
-average([3, 9, 10, 15, 22, 30])
+// average([3, 9, 10, 15, 22, 30])
+
+
+const students = [
+  { name: "Subhash", marks: 85 },
+  { name: "Ravi", marks: 40 },
+  { name: "Neha", marks: 72 },
+  { name: "Amit", marks: 25 }
+];
+students.forEach((element,index)=>{
+  if(students[index]["marks"] >=40){
+ console.log(`${students[index]["name"]} : Pass` )
+  }else{
+     console.log(`${students[index]["name"]} : Fail` )
+  }
+})
