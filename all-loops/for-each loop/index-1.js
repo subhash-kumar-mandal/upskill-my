@@ -19,3 +19,12 @@ let negtive_count =0;
    }
    })
  console.log(negtive_count) 
+
+
+
+//  3. print first letter uppercare karo 
+let str = ["subash", "priya","kumar","good"];
+
+str.forEach((element)=>{
+  console.log(element[0].toUpperCase()+element.slice(1))
+})
