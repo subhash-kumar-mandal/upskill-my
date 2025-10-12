@@ -37,3 +37,15 @@ arr.forEach((element)=>{
     console.log(element)
   }
 })
+
+
+// 5. find array average 
+let average =(arra)=>{
+  let sum =0;
+  arra.forEach((element)=>{
+     sum += element;
+  })
+  console.log(sum/arra.length)
+}
+
+average([3, 9, 10, 15, 22, 30])
