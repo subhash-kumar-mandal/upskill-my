@@ -50,6 +50,7 @@ let average =(arra)=>{
 
 // average([3, 9, 10, 15, 22, 30])
 
+// 6. check student  pass and fail 
 
 const students = [
   { name: "Subhash", marks: 85 },
@@ -62,5 +63,22 @@ students.forEach((element,index)=>{
  console.log(`${students[index]["name"]} : Pass` )
   }else{
      console.log(`${students[index]["name"]} : Fail` )
+  }
+})
+
+
+
+
+//  7. find duplicate item 
+
+let items = ["apple", "mango", "apple", "banana", "mango"];
+let check =[];
+
+items.forEach((element)=>{
+  if(check.includes(element)){
+        console.log(element);
+        check.push(element)
+  }else{
+      check.push(element)
   }
 })
