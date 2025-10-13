@@ -134,4 +134,14 @@ diviblie.forEach((elemt) => {
   }
 
 })
-console.log(`diviblie by both 2 and 3 --> ${count} number`)
+console.log(`diviblie by both 2 and 3 --> ${count} number`);
+
+
+
+
+// 11. find string lengths
+
+let str1 =['hello','good123','night',];
+str1.forEach((element)=>{
+  console.log(`${element} : element length is --> ${element.length}`)
+})
