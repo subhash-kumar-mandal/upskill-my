@@ -94,3 +94,32 @@ missing.forEach((element,index)=>{
   }
 
 })
+
+
+
+// 9. products array mein se total price count 
+const cart = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 1000 },
+  { name: "Keyboard", price: 2000 }
+];
+// 👉 Output: Total = 53000
+let cart_price_sum =0;
+cart.forEach((element)=>{
+        cart_price_sum += element.price
+})
+console.log(cart_price_sum);
+
+// 9.filter email addresses username 
+
+let email = ["subhash@123gmail.com","kumar@234gmail.com"];
+
+email.forEach((element)=>{
+  let username= ""
+for(let i=0;i<element.length;i++){
+     if(element[i]==="@"){
+      console.log (element.slice(0,i))
+     }
+}
+
+})
