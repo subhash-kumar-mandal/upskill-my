@@ -82,3 +82,15 @@ items.forEach((element)=>{
       check.push(element)
   }
 })
+
+// 8 . find missing number 
+ 
+let missing = [1,2,3,5,6];
+missing.forEach((element,index)=>{
+  if(missing[index+1]!==undefined){
+    if(missing[index+1]-element !==1){
+      console.log(element+1)
+    }
+  }
+
+})
