@@ -47,4 +47,13 @@ if(numbers.includes(15)){
     numbers.push(15)
 }
 
-console.log(numbers)
+console.log(numbers);
+
+let find = ["pen", "pencil", "eraser"];
+if(find.includes("marker")){
+    console.log("marker find")
+}else{
+    find.push("marker")
+}
+
+console.log(find)
