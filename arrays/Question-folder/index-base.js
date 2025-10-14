@@ -32,4 +32,9 @@ console.log(number.indexOf(300))
 }
 
 
-let name =["subhash"]
+let name =["subhash","ravi","neha"];
+name.push("kumar");
+name.unshift("priya");
+let i = name.indexOf("ravi");
+name[i] = "raj";
+console.log(name)
