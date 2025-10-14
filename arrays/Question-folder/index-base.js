@@ -57,3 +57,13 @@ if(find.includes("marker")){
 }
 
 console.log(find)
+
+
+
+let lang =["html","css","js","react"];
+if(lang.indexOf("js")>=0){
+    let index = lang.indexOf("react");
+    lang.splice(index,0,"node")
+}
+
+console.log(lang)
