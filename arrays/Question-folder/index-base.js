@@ -38,3 +38,13 @@ name.unshift("priya");
 let i = name.indexOf("ravi");
 name[i] = "raj";
 console.log(name)
+
+
+let numbers =[5,10,15,20,25];
+if(numbers.includes(15)){
+    numbers.pop()
+}else{
+    numbers.push(15)
+}
+
+console.log(numbers)
