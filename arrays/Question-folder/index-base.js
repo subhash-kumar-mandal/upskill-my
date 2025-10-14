@@ -66,4 +66,11 @@ if(lang.indexOf("js")>=0){
     lang.splice(index,0,"node")
 }
 
-console.log(lang)
+console.log(lang);
+
+
+let num1 = [10,20,30,40,50];
+while(num1.length>=4){
+    num1.pop()
+}
+console.log(num1)
