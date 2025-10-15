@@ -20,3 +20,19 @@ let array_str = array.map((ele)=>{
     return ele.toString()
 });
 console.log(array_str)
+
+
+let n = [10,15,20,25,0];
+let even_odd = n.map((ele)=>{
+    if(ele===0){
+  return  `${ele}-zero`
+    }else{
+    if(ele%2===0){
+        return `${ele}-even`
+    }else{
+         return `${ele}-odd`
+    }
+}
+})
+
+console.log(even_odd)
