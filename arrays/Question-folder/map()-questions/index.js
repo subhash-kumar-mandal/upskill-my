@@ -4,3 +4,12 @@ let mult1  = mult.map((Element)=>{
     return Element*2
 })
 console.log(mult1);
+
+// 2. return to uppercase 
+let fru =["apple","banana", "mango"];
+let uppercase_fru = fru.map((Element)=>{
+    return Element.toUpperCase()
+}) ;
+
+
+console.log(uppercase_fru)
