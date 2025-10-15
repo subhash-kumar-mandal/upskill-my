@@ -14,14 +14,14 @@ let uppercase_fru = fru.map((Element)=>{
 
 console.log(uppercase_fru);
 
-
+// 3.एक array [100,200,300,400] है — हर value को string में convert करो (जैसे "100").
 let array = [100,200,300,400];
 let array_str = array.map((ele)=>{
     return ele.toString()
 });
 console.log(array_str)
 
-
+// 4.एक array [10,15,20,25] है — अगर number odd है तो "odd" और even है तो "even" print करने वाला नया array बनाओ।
 let n = [10,15,20,25,0];
 let even_odd = n.map((ele)=>{
     if(ele===0){
@@ -35,4 +35,12 @@ let even_odd = n.map((ele)=>{
 }
 })
 
-console.log(even_odd)
+console.log(even_odd);
+
+// 5 एक array ["html", "css", "js"] है — हर element की length निकालो और नया array बनाओ।
+let lang =["html", "css", "js"];
+let new_lang = lang.map((ele)=>{
+    return `${ele} -length --> ${Number(ele.length)}`
+})
+
+console.log(new_lang)
