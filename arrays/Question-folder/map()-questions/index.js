@@ -43,4 +43,28 @@ let new_lang = lang.map((ele)=>{
     return `${ele} -length --> ${Number(ele.length)}`
 })
 
-console.log(new_lang)
+console.log(new_lang);
+
+// 6. एक array [50, 60, 70] है — हर value में 10% increase करो।
+
+let price =[50,60,70];
+let increase10= price.map((ele)=>{
+    return ele+(ele*(10/100))
+})
+
+console.log(increase10);
+
+
+
+// 7.🔟 एक array of objects है: हर student के marks में 5 extra जोड़ो और नया array बनाओ।
+let student  = [  { name: "Subhash", marks: 85 },
+  { name: "Ravi", marks: 70 },
+  { name: "Neha", marks: 90 }
+];
+
+let marks = student.map((ele)=>{
+    return ele.marks +5
+})
+
+
+console.log(marks)
