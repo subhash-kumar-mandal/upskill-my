@@ -12,4 +12,11 @@ let uppercase_fru = fru.map((Element)=>{
 }) ;
 
 
-console.log(uppercase_fru)
+console.log(uppercase_fru);
+
+
+let array = [100,200,300,400];
+let array_str = array.map((ele)=>{
+    return ele.toString()
+});
+console.log(array_str)
