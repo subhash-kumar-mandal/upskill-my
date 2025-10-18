@@ -15,6 +15,8 @@ let filte_even = arra.filter((element)=>{
 })
 console.log(filte_even)
 
+
+// 2. filter "a" letter
 let str = ["apple", "banana", "mango"," hello"];
 let a = str.filter((element)=>{
    for(let i=0;i<element.length;i++){
@@ -26,6 +28,8 @@ let a = str.filter((element)=>{
 
 // console.log(a)
 
+
+// 3. filter "a" letter
 let filte_fruits = ["apple", "banana", "mango"," hello"];
 let fil = filte_fruits.filter((element)=>{
   if(element.includes("a")){
@@ -33,5 +37,16 @@ let fil = filte_fruits.filter((element)=>{
   }
 })
 
-console.log(fil)
+// console.log(fil) 
 
+
+const students = [
+  { name: "Subhash", marks: 85 },
+  { name: "Ravi", marks: 35 },
+  { name: "Neha", marks: 70 },
+  { name: "Pooja", marks: 25 }
+];
+let filer1= students.filter((element)=>{
+  return element.marks>=40
+})
+console.log(filer1)
