@@ -94,3 +94,30 @@ function product (arra){
 }
 
 console.log(product([2, 3, 4]))
+
+
+
+// Q.
+// Array [10, 20, 30, 40] का average निकालो।
+
+function average(arra){
+    let sum = arra.reduce((acc,curr)=>{
+        return acc+curr
+    })
+    return sum/arra.length
+}
+
+console.log(average( [10, 20, 30, 40]));
+
+
+
+// Q.
+// Array ["Subhash", "loves", "coding"] को join करके एक string बनाओ।
+
+function str(arra){
+    let output = arra.reduce((acc,curr)=>{
+        return `${acc} ${curr}`
+    })
+    return output
+}
+console.log(str(["Subhash", "loves", "coding"]))
