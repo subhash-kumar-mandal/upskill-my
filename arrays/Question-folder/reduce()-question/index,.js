@@ -35,4 +35,18 @@ function find (arra){
     return max ;
 }
 
-console.log(find([20,30,40,50]))
+console.log(find([20,30,40,50]));
+
+
+
+// saare string arra Element ko sath mein return karo 
+
+function oneline(arra){
+    let output = arra.reduce((acc,curr)=>{
+        return `${acc} ${curr}`
+    })
+    return output
+} 
+
+
+console.log(oneline(["hello","i","am","boy"]))
