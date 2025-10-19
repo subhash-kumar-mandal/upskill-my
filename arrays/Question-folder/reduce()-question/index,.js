@@ -50,3 +50,18 @@ function oneline(arra){
 
 
 console.log(oneline(["hello","i","am","boy"]))
+
+
+// Object ke price ko sum karo 
+
+const products = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 1000 },
+  { name: "Keyboard", price: 2000 }
+];
+
+const totalPrice = products.reduce((acc, curr) => {
+  return acc + curr.price;
+}, 0);
+
+console.log(totalPrice); // 53000
