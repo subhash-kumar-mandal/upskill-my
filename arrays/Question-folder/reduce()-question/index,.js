@@ -121,3 +121,17 @@ function str(arra){
     return output
 }
 console.log(str(["Subhash", "loves", "coding"]))
+
+
+
+const items = [
+  { name: "Pen", price: 10 },
+  { name: "Pencil", price: 5 },
+  { name: "Eraser", price: 7 }
+];
+
+let items_sum = items.reduce((acc,curr)=>{
+    return acc+ curr.price
+},0)
+
+console.log(items_sum)// 22
