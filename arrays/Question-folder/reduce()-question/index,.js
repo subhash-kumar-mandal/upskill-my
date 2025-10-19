@@ -65,3 +65,32 @@ const totalPrice = products.reduce((acc, curr) => {
 }, 0);
 
 console.log(totalPrice); // 53000
+
+
+
+
+// Q.
+// Array [5, 10, 15, 20] का sum निकालो reduce() से।
+function sum1 (arra){
+let sum = arra.reduce((acc,curr)=>{
+    // console.log(acc);
+    return acc+curr
+})
+return sum
+}
+
+console.log(sum1([5, 10, 15, 20])) // 50 
+
+
+
+
+// Q.
+// Array [2, 3, 4] का product (गुणनफल) निकालो।
+function product (arra){
+    let find = arra.reduce((acc,curr)=>{
+      return acc * curr
+    },1)
+    return find
+}
+
+console.log(product([2, 3, 4]))
