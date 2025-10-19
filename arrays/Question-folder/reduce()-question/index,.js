@@ -21,4 +21,18 @@ let sum = arra.reduce((acc,curr)=>{
     return acc+curr
 })
 
-console.log(sum)
+// console.log(sum)
+
+// find maximum 
+function find (arra){
+    let max = arra.reduce((acc,curr)=>{
+   if(acc>curr){
+    return acc
+   }else{
+    return curr
+   }
+    })
+    return max ;
+}
+
+console.log(find([20,30,40,50]))
