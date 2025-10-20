@@ -17,3 +17,11 @@ let num = numbers.findIndex((element)=>{
 })
 
 console.log(num)
+
+
+// Question 2: Word length
+const fruits = ["apple", "banana", "grapes", "kiwi", "mango"];
+let lengt = fruits.findIndex((element)=>{
+    return element.length>5;
+})
+console.log(lengt)
