@@ -22,3 +22,12 @@ const nums = [1, 2, 3, 4];
 const res = nums.find(num => num > 10);
 console.log(res);
 
+
+
+// Q
+const number = [2, 5, 8, 12, 15, 20];
+let biger_than_10 = number.find((Element)=>{
+    return Element>10
+})
+
+console.log(biger_than_10)
