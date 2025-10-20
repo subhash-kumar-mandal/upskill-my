@@ -31,3 +31,12 @@ let biger_than_10 = number.find((Element)=>{
 })
 
 console.log(biger_than_10)
+
+
+
+// Q 
+const words = ["apple", "banana", "grapes", "kiwi", "mango"];
+let lengt = words.find((Element)=>{
+     return Element.length > 5;
+})
+console.log(lengt)
