@@ -25,3 +25,17 @@ let lengt = fruits.findIndex((element)=>{
     return element.length>5;
 })
 console.log(lengt)
+
+
+
+//  Question 3: Object Age
+const users = [
+  { name: "Aman", age: 17 },
+  { name: "Subhash", age: 20 },
+  { name: "Ravi", age: 18 },
+  { name: "Neha", age: 22 }
+];
+let age = users.findIndex((element)=>{
+    return element.age>18
+})
+console.log(age)
