@@ -40,3 +40,33 @@ let lengt = words.find((Element)=>{
      return Element.length > 5;
 })
 console.log(lengt)
+
+// Q 
+const num = [3, 9, 15, 21, 30, 42];
+let divi = num.find((element)=>{
+      return element%3==0 && element%7===0
+})
+console.log(divi)
+
+
+// Q
+const users = [
+  { name: "Aman", age: 17 },
+  { name: "Subhash", age: 20 },
+  { name: "Ravi", age: 18 },
+  { name: "Neha", age: 22 }
+];
+let age = users.find((element)=>{
+    if(element.age>18){
+        return element.name
+    }
+})
+console.log(age)
+
+
+// Q 
+const arr = [10, 15, 20, 25, 30];
+let even_big= arr.find((element)=>{
+    return element%2===0 && element>20 
+})
+console.log(even_big)
