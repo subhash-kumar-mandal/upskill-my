@@ -39,3 +39,12 @@ let age = users.findIndex((element)=>{
     return element.age>18
 })
 console.log(age)
+
+
+
+// Question 4 (Challenge): Even number > 15
+const arr = [10, 12, 16, 20, 25, 30];
+let arr1 = arr.findIndex((element)=>{
+    return  element%2===0 && element>15
+})
+console.log(arr1)
